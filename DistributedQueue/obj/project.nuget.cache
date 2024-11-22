@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "pQp2UWwIcJ0=",
+  "success": true,
+  "projectFilePath": "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue/DistributedQueue.Scheduler.csproj",
+  "expectedPackageFiles": [
+    "/home/overg/.nuget/packages/hangfire.core/1.8.2/hangfire.core.1.8.2.nupkg.sha512",
+    "/home/overg/.nuget/packages/hangfire.redis.stackexchange/1.9.0/hangfire.redis.stackexchange.1.9.0.nupkg.sha512",
+    "/home/overg/.nuget/packages/newtonsoft.json/11.0.1/newtonsoft.json.11.0.1.nupkg.sha512",
+    "/home/overg/.nuget/packages/pipelines.sockets.unofficial/2.2.2/pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "/home/overg/.nuget/packages/stackexchange.redis/2.6.111/stackexchange.redis.2.6.111.nupkg.sha512",
+    "/home/overg/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

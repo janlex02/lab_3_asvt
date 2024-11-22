@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/FD/UN2bBIg=",
+  "success": true,
+  "projectFilePath": "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Common/DistributedQueue.Common.csproj",
+  "expectedPackageFiles": [
+    "/home/overg/.nuget/packages/hangfire.core/1.8.2/hangfire.core.1.8.2.nupkg.sha512",
+    "/home/overg/.nuget/packages/newtonsoft.json/11.0.1/newtonsoft.json.11.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

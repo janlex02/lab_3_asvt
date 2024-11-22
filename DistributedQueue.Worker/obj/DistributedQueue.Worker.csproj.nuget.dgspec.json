@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Worker/DistributedQueue.Worker.csproj": {}
+  },
+  "projects": {
+    "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Common/DistributedQueue.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Common/DistributedQueue.Common.csproj",
+        "projectName": "DistributedQueue.Common",
+        "projectPath": "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Common/DistributedQueue.Common.csproj",
+        "packagesPath": "/home/overg/.nuget/packages/",
+        "outputPath": "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/overg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Worker/DistributedQueue.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Worker/DistributedQueue.Worker.csproj",
+        "projectName": "DistributedQueue.Worker",
+        "projectPath": "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Worker/DistributedQueue.Worker.csproj",
+        "packagesPath": "/home/overg/.nuget/packages/",
+        "outputPath": "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Worker/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/overg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Common/DistributedQueue.Common.csproj": {
+                "projectPath": "/home/overg/Документы/уник/asvt/asvt_laba_3/asvt_laba_3/DistributedQueue.Common/DistributedQueue.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Hangfire.Redis.StackExchange": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
